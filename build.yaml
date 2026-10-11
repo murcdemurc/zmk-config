@@ -15,3 +15,5 @@
 include:
   - board: seeeduino_xiao_ble
     shield: re-gret
+    snippet: studio-rpc-usb-art
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
