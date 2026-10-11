@@ -75,9 +75,9 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-                &trans      &trans      &trans     &trans         &kp TAB       &trans          &trans         &kp UP      &trans     &trans
-                &sk LCTRL   &sk LALT    &sk LCMD   &sk LSHFT      &kp BSPC      &trans        &kp LEFT       &kp DOWN      &kp RIGHT  &trans
-                &kp LG(Z)   &kp LG(X)   &kp LG(C)  &kp LG(V)      &kp RET       &kp RET         &kp BSPC       &kp TAB     &trans     &trans
+                &trans      &trans      &trans     &trans         &kp TAB       &trans          &trans         &trans      &trans     &trans
+                &sk LCTRL   &sk LALT    &sk LCMD   &sk LSHFT      &kp BSPC      &kp BSPC        &kp LEFT       &kp UP      &kp RIGHT  &trans
+                &kp LG(Z)   &kp LG(X)   &kp LG(C)  &kp LG(V)      &kp RET       &kp RET         &kp LEFT       &kp DOWN     &kp RIGHT     &trans
                                                    &trans         &trans        &trans          &trans
             >;
         };
