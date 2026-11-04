@@ -42,8 +42,8 @@
                 &kp Q      &kp W      &kp E      &kp R      &kp T
                 &kp Y      &kp U      &kp I      &kp O      &kp P
 
-                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &mt RALT G
-                &mt RALT H      &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI SEMI
+                &mt LCTRL A &mt LGUI S &mt LALT D &mt RSHFT F &mt RALT G
+                &mt RALT H      &mt RSHFT J &mt LALT K &mt LGUI L &mt LCTRL SEMI
 
                 &kp Z      &kp X      &kp C      &kp V      &kp B
                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
@@ -66,8 +66,8 @@
                 &kp N1     &kp N2     &kp N3     &kp N4     &kp N5
                 &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
 
-                &mt LGUI MINUS &mt LALT EQUAL &mt LSHFT LBKT &mt LCTRL RBKT &kp BSLH
-                &kp LEFT   &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI SEMI
+                &mt LCTRL MINUS &mt LGUI EQUAL &mt LALT LBKT &mt RSHFT RBKT &mt RALT BSLH
+                &mt RALT LEFT   &mt RSHFT J &mt LALT K &mt LGUI L &mt LCTRL SEMI
 
                 &kp F1     &kp F2     &kp F3     &kp F4     &kp F5
                 &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
@@ -88,12 +88,12 @@
 
             bindings = <
                 &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp INS
-                &kp DEL    &kp C_LEFT &kp C_DOWN &kp C_UP   &kp C_RIGHT
+                &kp DEL    &trans &trans &trans   &trans
 
-                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &mt RALT TAB
+                &mt LCTRL A &mt LGUI S &mt LALT D &mt RSHFT F &mt RALT TAB
                 &trans   &kp LEFT &kp UP &kp RIGHT &kp TAB
 
-                &kp C_Z    &kp C_X    &kp C_C    &kp C_V    &kp C_Y
+                &trans    &trans    &trans    &trans    &trans
                 &trans   &kp LEFT   &kp DOWN     &kp RIGHT  &kp TAB
 
                 &lt 1 SPACE
@@ -114,8 +114,8 @@
                 &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT
                 &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR
 
-                &mt LGUI GRAVE &mt LALT TILDE &mt LSHFT LBRC &mt LCTRL RBRC &kp PIPE
-                &kp MINUS  &mt RCTRL UNDER &mt RSHFT PLUS &mt RALT EQUAL &mt RGUI COLON
+                &mt LCTRL GRAVE &mt LGUI TILDE &mt LALT LBRC &mt LSHFT RBRC &kp PIPE
+                &kp MINUS  &mt LSHFT UNDER &mt LALT PLUS &mt LGUI EQUAL &mt RCTRL COLON
 
                 &kp SEMI   &kp DQT    &kp APOS   &kp LT     &kp GT
                 &kp QMARK  &kp FSLH   &kp BSLH   &kp LBKT   &kp RBKT
@@ -138,8 +138,8 @@
                 &kp F11    &kp F12    &kp F13    &kp F14    &kp F15
                 &kp F16    &kp F17    &kp F18    &kp F19    &kp F20
 
-                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &kp CAPS
-                &kp C_MUTE &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI SEMI
+                &trans &trans &trans &trans &kp CAPS
+                &kp C_MUTE &trans &trans &trans &trans
 
                 &bt BT_SEL 0
                 &bt BT_SEL 1
