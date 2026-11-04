@@ -42,8 +42,8 @@
                 &kp Q      &kp W      &kp E      &kp R      &kp T
                 &kp Y      &kp U      &kp I      &kp O      &kp P
 
-                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &kp G
-                &kp H      &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI SEMI
+                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &mt RALT G
+                &mt RALT H      &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI SEMI
 
                 &kp Z      &kp X      &kp C      &kp V      &kp B
                 &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
@@ -90,11 +90,11 @@
                 &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp INS
                 &kp DEL    &kp C_LEFT &kp C_DOWN &kp C_UP   &kp C_RIGHT
 
-                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &kp TAB
-                &kp LEFT   &mt RCTRL J &mt RSHFT K &mt RALT L &mt RGUI SEMI
+                &mt LGUI A &mt LALT S &mt LSHFT D &mt LCTRL F &mt RALT TAB
+                &trans   &kp LEFT &kp UP &kp RIGHT &kp TAB
 
                 &kp C_Z    &kp C_X    &kp C_C    &kp C_V    &kp C_Y
-                &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp TAB
+                &trans   &kp LEFT   &kp DOWN     &kp RIGHT  &kp TAB
 
                 &lt 1 SPACE
                 &lt 3 BACKSPACE
@@ -144,7 +144,7 @@
                 &bt BT_SEL 0
                 &bt BT_SEL 1
                 &bt BT_SEL 2
-                &bt BT_SEL 3
+                &studio_unlock
                 &bt BT_CLR
 
                 &kp C_VOL_DN
