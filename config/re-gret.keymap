@@ -72,7 +72,7 @@
         sym_layer {
             display-name = "Symbol";
             bindings = <
-                &kp EXCL   &kp AT   &kp HASH   &kp DLLR          &kp LBRC      &kp RBRC       &kp PRCNT         &kp TILDE    &kp EQUAL     &kp K_APP
+                &kp EXCL   &kp AT   &kp HASH   &kp DLLR          &kp LBRC      &kp RBRC       &kp PRCNT         &kp TILDE    &kp EQUAL     &kp DEL
                 &hm LCTRL AMPS  &hm LGUI STAR   &hm LALT PLUS   &hm LSHFT MINUS       &hm RALT LPAR      &hm RALT RPAR        &hm RSHFT DQT      &hm LALT SQT    &hm LGUI COLON   &hm LCTRL SEMI
                 &kp PIPE   &kp CARET  &kp DLLR    &kp MINUS       &kp LBKT        &kp RBKT          &kp FSLH       &kp LT      &kp GT     &kp GRAVE
                                                   &trans          &trans        &trans          &trans
