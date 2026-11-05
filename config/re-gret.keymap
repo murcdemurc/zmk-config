@@ -9,6 +9,14 @@
 #define SYS_L 4
 
 / {
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        cond_1_2_4 {
+            if-layers = <1 2>;
+            then-layer = <4>;
+        };
+    };
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -57,7 +65,7 @@
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
                 &hm LCTRL A      &hm LGUI S      &hm LALT D       &hm LSHFT F          &hm RALT G         &hm RALT H            &hm LSHFT J          &hm LALT K       &hm LGUI L      &hm LCTRL SQT
                 &kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
-                                                  &lt 1 ESC      &lt 3 SPACE     &lt 4 RSHIFT       &lt 2 ENTER
+                                                  &lt 1 ESC      &lt 3 SPACE     &kp RSHIFT       &lt 2 ENTER
             >;
         };
 
