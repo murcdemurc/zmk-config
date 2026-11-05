@@ -82,7 +82,7 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-                &trans      &trans      &trans     &trans         &kp TAB       &kp END          &kp PG_DN         &kp HOME      &kp PG_UP     &kp DEL
+                &kp F2      &kp F5      &kp F9     &kp F12         &kp TAB       &kp END          &kp PG_DN         &kp HOME      &kp PG_UP     &kp DEL
                 &kp LCTRL   &kp LGUI    &kp LALT   &kp LSHFT      &mt RALT BSPC      &kp BSPC        &kp LEFT       &kp UP      &kp RIGHT  &kp TAB
                 &kp LG(Z)   &kp LG(X)   &kp LG(C)  &kp LG(V)      &kp RET       &kp RET         &kp LEFT       &kp DOWN     &kp RIGHT     &trans
                                                    &trans         &trans        &trans          &trans
